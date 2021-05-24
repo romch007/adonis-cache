@@ -23,6 +23,9 @@
     "prettier": "^2.3.0",
     "typescript": "^4.2.4"
   },
+  "peerDependencies": {
+    "@adonisjs/redis": "^7.0.4"
+  },
   "scripts": {
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
     "pretest": "npm run lint",
